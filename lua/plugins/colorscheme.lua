@@ -1,9 +1,19 @@
+-- return {
+--     "navarasu/onedark.nvim",
+--     lazy = false,
+--     name = "onedark",
+--     priority = 1000,
+--     config = function()
+--         vim.cmd.colorscheme("onedark")
+--     end,
+-- }
+
 return {
-    "navarasu/onedark.nvim",
+    "shaunsingh/nord.nvim",
     lazy = false,
-    name = "onedark",
+    name = "nord",
     priority = 1000,
     config = function()
-        vim.cmd.colorscheme("onedark")
+        vim.cmd.colorscheme("nord")
     end,
 }
